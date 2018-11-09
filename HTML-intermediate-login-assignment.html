@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration</title>
+</head>
+<body>
+	<h1>Register</h1>
+	<form action="http://www.wilipedia.org" method="GET">
+		<label for='firstname'>First Name</label>
+		<input type="text" name="firstname" id='firstname' placeholder="John" required>
+		<label for='lastname'>Last Name</label>
+		<input type="text" name="lastname" id='lastname' placeholder="Smith" required><br>
+
+		<label for='male'>Male</label>
+		<input type="radio" name="gender" id='male' value='MALE'>
+		<label for='female'>Female</label>
+		<input type="radio" name="gender" id='female' value='FEMALE'>
+		<label for='other'>Other</label>
+		<input type="radio" name="gender" id='other' value='OTHER'><br>
+
+		<label for='email'>Email</label>
+		<input type="email" name="email" id='email' placeholder="your email id" required>
+		<label for='password'>Password</label>
+		<input type="password" name="password" id='password' minlength="5" maxlength="10"><br>
+
+		<label for='dob'>Birthday</label>
+		<span id='dob'>
+			<select name="month">
+				<optgroup label="Month">
+				<option>Jan</option>
+				<option>Feb</option>
+				</optgroup>
+			</select>
+			<select name="date">
+				<optgroup label="Date">
+				<option>1</option>
+				<option>2</option>
+				</optgroup>
+			</select>
+			<select name="year">
+				<optgroup label="Year">
+				<option>1995</option>
+				<option>2018</option>
+				</optgroup>
+			</select>
+		</span><br>
+		<label for="toc">I agree to the terms and conditions</label>
+		<input type="checkbox" name="toc" id="toc" value="true"> <br>
+		<input type="submit">
+	</form>
+</body>
+</html>
