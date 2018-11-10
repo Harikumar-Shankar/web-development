@@ -1,0 +1,15 @@
+#margin{
+	/*margin: 0 25px;
+	margin: 0 auto;*/
+	margin: 25px 30px 40px 50px;
+}
+#border{
+	border: 2px solid green;
+}
+#padding{
+	padding: 25px;
+}
+#content{
+	width: 25%;
+	border: 1px solid black;
+}
