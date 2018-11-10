@@ -1,0 +1,12 @@
+body{
+	background: url(http://www.hdnicewallpapers.com/Walls/Normal/Cricket/MS_Dhoni_in_CSK_IPL_Match_Wallpaper.jpg);
+	border: 0 0 0 0 1px solid;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+p{
+	background: rgb(55, 235, 30);
+	border-width: 1px;
+	border-style: solid;
+	border-color: #000000;
+}

@@ -1,0 +1,31 @@
+#id-selector{
+	color: pink;
+}
+.class-selector {
+	color: orange;
+}
+
+/* Star selector - applies to all elements */
+*{
+	border: 1px dotted lightgray;
+}
+
+/* Descedent selector - The content in hierarchial manner -  so it affects all elements in this form. It can also have class or id*/
+ol li {
+	color: green;
+}
+
+/* Adjacent selector - Applies style to element after the specified */
+ol + p {
+	color: yellow;
+}
+
+/* Attribute selector -  applies style to the specified attribute and its value */
+p[name='attr'] {
+	color: violet;
+}
+
+/* nth of type -- applies style to nth occurence of the element*/
+li:nth-of-type(3){
+	text-decoration: line-through;
+}
