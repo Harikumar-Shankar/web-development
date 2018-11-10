@@ -1,0 +1,16 @@
+body{
+	font-size: 14px;
+	font-family: Ariel;
+}
+h1{
+	font-size: 5em;
+	text-align: center;
+	text-decoration: line-through;
+}
+p{
+	font-size: 2em;
+}
+/*This span height is actually 2 times of P height.*/
+span{
+	font-size: 2em;
+}
