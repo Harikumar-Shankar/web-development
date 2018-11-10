@@ -1,0 +1,26 @@
+.right-bottom{
+	border-right: 1px solid black;
+	border-bottom: 1px solid;
+}
+.left-bottom{
+	border-left: 1px solid black;
+	border-bottom: 1px solid;
+}
+
+.bottom{	
+	border-bottom: 1px solid; 
+}
+.left{
+	border-left: 1px solid black;
+}
+.right{
+	border-right: 1px solid black;
+}
+table{
+	margin: auto;
+	border-spacing: 0;
+}
+td{
+	width:25px;
+	height: 25px;
+}
