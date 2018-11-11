@@ -1,0 +1,21 @@
+body{
+	border: 20px solid #6E696E;
+	padding: 20px;
+	font-family: 'Source Sans Pro', sans-serif;
+	max-width: 700px;
+	width: 80%;
+	margin: 20px auto;
+}
+
+.date-info{
+	color: #12A3B4;
+	text-transform: uppercase;
+	letter-spacing: 0.2rem;
+}
+.left-border{
+	border-left: 5px solid #6E696E;
+	padding-left: 5px;
+}
+h1{
+	font-weight: 800px;
+}

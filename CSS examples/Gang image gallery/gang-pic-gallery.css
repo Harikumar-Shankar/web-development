@@ -1,0 +1,15 @@
+p{
+	font-family: 'Black And White Picture', sans-serif;
+	font-size: 30px;
+	font-weight: 700;
+	padding-bottom: 20px;
+	width: 30%;
+	margin-left: 1.66%;
+	border-bottom: 2px solid #F1F1F1;
+}
+img{
+	width: 30%;
+	margin:1.66%;
+	float: left;
+	max-height: 20%;
+}
